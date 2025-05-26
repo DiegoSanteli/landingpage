@@ -1,5 +1,5 @@
-/* Importação de fonte */
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+/* Importação de fonte 
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');*/
 
 /* ===========================
    BASE
@@ -8,9 +8,10 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   color: white;
-  background: url('https://evermonte.com/wp-content/uploads/2022/09/tecnologia-inteligente-trabalho-humanizado.png') no-repeat center center fixed;
+  background: url('imagens/fundo1.webp') no-repeat center center fixed;
   background-size: cover;
   position: relative;
+  transition: background-image 0.7s ease-in-out;
 }
 
 body::before {
@@ -53,7 +54,7 @@ button:hover {
    HEADER
 =========================== */
 header h1 {
-  font-family: 'Bad Script', cursive;
+  
   font-size: 3rem;
 }
 
