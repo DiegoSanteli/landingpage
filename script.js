@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", function (e) {
     e.preventDefault(); // Impede o recarregamento da página
 
-    emailjs.sendForm("service_m422nsr", "template_33oom0b", form, "YtN1lSFgRaE_YAnHf")
+    emailjs.sendForm("")
       .then(() => {
         alert("Mensagem enviada com sucesso!");
         form.reset(); // Limpa o formulário

@@ -409,3 +409,11 @@ footer {
     box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 50px #0ff;
   }
 }
+
+
+@media (max-width: 768px) {
+  body {
+    background: url('imagens/fundo1-mobile.webp') no-repeat center center fixed;
+    background-size: cover;
+  }
+}
